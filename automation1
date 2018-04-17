@@ -1,0 +1,192 @@
+login as: vbk
+vbk@192.168.110.129's password:
+Last login: Mon Apr 16 07:13:05 2018 from 192.168.110.1
+-bash: PATH:/usr/local/bin:/bin:/usr/bin=/usr/java/jdk-9.0.4/bin/: No such file                        or directory
+[vbk@localhost ~]$ history
+    1  echo
+    2  echo $ SHELL
+    3  bash
+    4  ls -lrt
+    5  su root
+    6  ifconfig
+    7  echo $ bash
+    8  .bashrc
+    9  ./bashrc
+   10  cd ..
+   11  cd /bashrc
+   12  cd /etc/profile
+   13  cd /etc/profiles
+   14  cd ~
+   15  ls
+   16  cd /etc/profile
+   17  cd /etc
+   18  ls
+   19  cd profile.d
+   20  ls
+   21  sudo
+   22  sudo root
+   23  which id
+   24  which vbk
+   25  set
+   26  end
+   27  env
+   28  cd /home
+   29  cd /root
+   30  su root
+   31  exit
+   32  id vbk
+   33  id root
+   34  jar
+   35  man jar
+   36  jar man
+   37  rdp
+   38  /bin
+   39  cd /
+   40  ls -lrt
+   41  /bin
+   42  cd /bin
+   43  ls -lrt
+   44  cd /
+   45  ls -lrt
+   46  top
+   47  date
+   48  tar
+   49  sep
+   50  scp
+   51  scp -p port
+   52  pwd
+   53  echo $home
+   54  echo $ HOME
+   55  echo $ user
+   56  echo $ usr
+   57  echo $ user
+   58  cd /usr/bin
+   59  .bash
+   60  ./bash
+   61  cd /bash
+   62  cd /.bash
+   63  bash
+   64  exit
+   65  ls
+   66  ifconfig
+   67  traceroute www.google.com
+   68  ping 192.168.110.129
+   69  dig 192.168.110.129
+   70  telnet 192.168.110.129
+   71  telnet www.google.com
+   72  telnet port
+   73  telnet 192.168.110.129 8080
+   74  telnet 192.168.110.129
+   75  nslookup www.google.com
+   76  nslookup www.vims.ac.in
+   77  tracedepth www.google.com
+   78  tracedepth 192.168.110.129
+   79  host
+   80  hostname
+   81  tcpdump www.google.com
+   82  ifconfig
+   83  exit
+   84  ifconfig
+   85  chage -l tomcat
+   86  chage -l vbk
+   87  chage -e 9,9,9,9
+   88  pam_tally2 u
+   89  pam_tally2 -u vbk
+   90  pam_tally2 -u vbk reset
+   91  pam_tally2 -u vbk -r reset
+   92  pam_tally2 -r vbk  reset
+   93  man
+   94  man kill
+   95  hostname
+   96  whoami
+   97  who am i
+   98  pwd
+   99  ls -o
+  100  ls - o
+  101  which vbk
+  102  echo $ shell
+  103  echo $SHELL
+  104  touch balu
+  105  man scp
+  106  scp balu vbk
+  107  cd vbk
+  108  ls
+  109  cd ..
+  110  ls
+  111  cp balu vbk
+  112  ls
+  113  mc balu vbk
+  114  mv balu vbk
+  115  ls
+  116  cd vbk
+  117  ls
+  118  ls -lrt
+  119  w
+  120  who
+  121  last
+  122  TTY
+  123  PWD
+  124  pwd
+  125  tty
+  126  user
+  127  usr
+  128  cd ..
+  129  usr
+  130  user
+  131  home
+  132  nc -vz
+  133  nc -vz  192.168.110.129
+  134  nc -vz 192.168.110.129
+  135  man nc
+  136  man nc -vz
+  137  ls
+  138  alias it='ls -ltr'
+  139  it
+  140  ls -lrt
+  141  which it
+  142  vi vbk
+  143  cat vbk
+  144  cat nbk
+  145  man cat
+  146  mkdir scripts
+  147  ls
+  148  vi first.sh
+  149  ./sh first.sh
+  150  ./first.sh
+  151  cd scripts/
+  152  ls
+  153  ls -lrt
+  154  ./first.sh
+  155  ls -lrt
+  156  cd ..
+  157  ls -lrt
+  158  chmod 755 first.sh
+  159  ./first.sh
+  160  cd scripts/
+  161  vi second.sh
+  162  ls -lrt
+  163  ./second.sh
+  164  chmod 755 second.sh
+  165  ./second.sh
+  166  vi second.sh
+  167  ./second.sh
+  168  vi second.sh
+  169  ./second.sh
+  170  vi second.sh
+  171  ./second.sh
+  172  vi second.sh
+  173  ./second.sh
+  174  vi myname
+  175  ./myname
+  176  chmod 755 myname
+  177  ./myname
+  178  vi forloop
+  179  chmod 755 forloop
+  180  ./forloop
+  181  vi forloop
+  182  ls -lrt
+  183  vi forloop
+  184  ./forloop
+  185  exit
+  186  ifconfig
+  187  history
