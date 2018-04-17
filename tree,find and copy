@@ -1,0 +1,21 @@
+ Apr 17 07:03 scripts
+[root@ip-172-31-26-30 ~]# tree
+.
+└── scripts
+    └── jenkins
+        └── jobs
+            └── demos
+                └── config.xml
+
+4 directories, 1 file
+[root@ip-172-31-26-30 ~]# find / -type f -name  "config.xml" -exec cp {} /tmp
+find: missing argument to `-exec'
+[root@ip-172-31-26-30 ~]# find / -type f -name  "config.xml" -exec cp {} /tmp \;
+[root@ip-172-31-26-30 ~]# ls -lrt
+total 4
+drwxr-xr-x 3 root root 4096 Apr 17 07:03 scripts
+[root@ip-172-31-26-30 ~]# cd /tmp
+[root@ip-172-31-26-30 tmp]# ls -lrt
+total 4
+drwxr-xr-x 2 root root 4096 Apr 14 03:03 hsperfdata_root
+-rw-r--r-- 1 root root    0 Apr 17 07:31 config.xml
