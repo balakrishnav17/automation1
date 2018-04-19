@@ -1,0 +1,10 @@
+127.0.0.1  www.eenadu.net 
+127.0.0.1  www.facebook.com
+127.0.0.1  www.youtube.com
+127.0.0.1  www.google.com
+127.0.0.1  www.hackerrank.com
+127.0.0.1  www.yahoo.com
+127.0.0.1  www.gmail.com
+by using the local loop back address 127.0.0.1 
+
+directory :C:\Windows\System32\drivers\etc\host  here we can block the sites 
