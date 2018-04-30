@@ -1,0 +1,4 @@
+ ln -s /var/log/httpd logs
+ 
+ two types of softlink :we can create across the files
+ Hard link: we can't create across the files
