@@ -1,0 +1,62 @@
+#!/bin/bash
+yum update -y
+yum install -y httpd24 php56 mysql55-server php56-mysqlnd
+#start apache
+service httpd start
+#Register apache as os level serivce
+chkconfig httpd on
+#creating a group
+groupadd www
+#add ec2-user into www group
+usermod -a -G www ec2-user
+
+chown -R root:www /var/www
+
+chmod -R 775 /var/www
+
+#find with chmod for directories
+find /var/www -type d -exec chmod -R 775 {} +
+find /var/www -type f -exec chmod 0664 {} +
+
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+
+====================================================
+user--group
+
+ec2-user /ec2-user
+
+
+OS level serivces
+systemctl enable <service> --Rhel 7
+systemtd-1
+
+
+chkconfig service on  -- Rhel 6
+chkconfig tomcat --level 35 on
+
+/etc/init.d/
+init -1
+
+
+
+
+
+*/1 * * * * /home/ranveer/vimbackup.sh >> /home/ranveer/vimbackup.log 2>&1
+
+init level services or os level services or daemons
+
+init levels in linux
+what are all the init levels in linux ?
+7
+
+init 0- shutdown
+init 1- single user mode and no network(127.0.0.1)
+init 2 - multi user mode and no network(127.0.0.1)
+init 3 - multi user mode and with network 
+init 4 - Undefined
+init 5 - multi user mode with GUI (x11 /cygwin)
+init 6 - reboot
+
+
+
+
